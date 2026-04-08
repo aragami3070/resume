@@ -1,6 +1,5 @@
 #import "@preview/basic-resume:0.2.9": *
 
-// Put your personal information here, replacing mine
 #let name = "Смирнов Егор Ильич"
 #let location = ""
 #let email = "smirnov17612@gmail.com"
@@ -72,7 +71,7 @@
 
 == Интересы
 Я активный студент, увлечённый программированием, особенно веб-разработкой.
-Учавствую в хакатонах и изучаю Rust.
+Участвую в хакатонах и изучаю Rust.
 
 В свободное время изучаю Arch Linux и текстовый редактор Neovim
 
