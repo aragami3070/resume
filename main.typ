@@ -38,13 +38,9 @@
   description: "Программная инженерия",
 )
 
-Курсовые работы:
-- Разработка ядра клиент-серверного приложения для приложения Отработки на DotNet
-
-= Проекты
-
+= Курсовые работы
 #resume-entry(
-  title: "Разработка ядра клиент-серверного приложения для приложения Отработки на DotNet.",
+  title: "Разработка ядра клиент-серверного приложения\n для приложения Отработки на DotNet.",
   location: [#github-link("AXECAC/Voluntary-Working-Back-End")],
   date: [Июнь 2025],
   description: "Бэкенд-разработчик",
@@ -57,8 +53,9 @@
     библиотеки AspNetCore Authentication JwtBearer.
 ]
 
+= Проекты
 #resume-entry(
-  title: "Уведомления в Matrix о новых объектах, созданных в workspace в Anytype.",
+  title: "Уведомления в Matrix о новых объектах,\n созданных в workspace в Anytype.",
   location: [#github-link("aragami3070/anytype-notify")],
   date: [сентябрь --  декабрь 2025],
   description: "Бэкенд-разработчик",
@@ -67,6 +64,7 @@
 #resume-item[
   - Реализовал взаимодействие с API matrix для отправки сообщений
   - Написал скрипт для запуска сервиса в system.d
+  - Написал ci/cd на github для тестов
 ]
 
 #resume-entry(
@@ -85,9 +83,20 @@
 - Конвертацию старых Mircrosoft office в новые с помощью Libreoffice
 ]
 
+#resume-entry(
+  title: "Факультетский сервер Jabber",
+  location: [#link("im.csit.sgu.ru")],
+  date: [январь -- март 2026],
+  description: "DevOps"
+)
+
+#resume-item[
+  - Развертывал сервер ejabberd
+  - Настраивал TLS сертификаты
+]
+
 = Интересы
 Я активный студент, увлечённый программированием, особенно веб-разработкой.
 Участвую в хакатонах и изучаю Rust.
 
-В свободное время изучаю Arch Linux и текстовый редактор Neovim
-
+В свободное время изучаю Arch Linux и текстовый редактор Neovim.
