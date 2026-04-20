@@ -1,4 +1,4 @@
-#import "@preview/modern-cv:0.9.0": *
+#import "./modern-cv/lib.typ": *
 
 #show: resume.with(
   author: (
@@ -8,7 +8,7 @@
     // homepage: "https",
     phone: "+7 (987) 358 17 11",
     github: "aragami3070",
-    // twitter: "typstapp",
+    telegram: "aragami_3070",
     scholar: "",
     birth: "12 ноября 2005",
     address: "г. Саратов",
