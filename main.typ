@@ -12,7 +12,7 @@
     scholar: "",
     birth: "12 ноября 2005",
     address: "г. Саратов",
-    positions: ("Software Engineer", "Developer",),
+    positions: ("Программный инженер", "Программист",),
   ),
   profile-picture: image("photo.jpg"),
   date: datetime.today().display(),
@@ -24,9 +24,9 @@
 
 = Навыки
 
-#resume-skill-item("Языки", (strong("C#"), strong("Rust"), "SQL", "Bash"))
+#resume-skill-item("Языки", (strong("Rust"), strong("C#"), "SQL", "Bash"))
 #resume-skill-item("Языки общения", (strong("Русский"), "Английский B1"))
-#resume-skill-item("Фреймворки", ("Axum", "ASPNET", "DOTNET"))
+#resume-skill-item("Фреймворки", ("Axum", "ASPNET", "DOTNET", "zbus"))
 #resume-skill-item("Инструменты", (strong("Git"), strong("Docker"), "Figma"))
 
 = Образование
@@ -40,7 +40,7 @@
 
 = Курсовые работы
 #resume-entry(
-  title: "Разработка ядра клиент-серверного приложения\n для приложения Отработки на DotNet.",
+  title: "Разработка ядра клиент-серверного приложения\nдля приложения Отработки на DotNet.",
   location: [#github-link("AXECAC/Voluntary-Working-Back-End")],
   date: [Июнь 2025],
   description: "Бэкенд-разработчик",
@@ -55,16 +55,17 @@
 
 = Проекты
 #resume-entry(
-  title: "Уведомления в Matrix о новых объектах,\n созданных в workspace в Anytype.",
-  location: [#github-link("aragami3070/anytype-notify")],
-  date: [сентябрь --  декабрь 2025],
+  title: "Zbus Демон  для работы с облачными хранилищами\n(Яндекс Диск, Google drive и так далее)",
+  location: [#github-link("RebaseBrain/pompiliusd")],
+  date: [апрель 2026],
   description: "Бэкенд-разработчик",
 )
 
 #resume-item[
-  - Реализовал взаимодействие с API matrix для отправки сообщений
-  - Написал скрипт для запуска сервиса в system.d
-  - Написал ci/cd на github для тестов
+  Хакактон DiscoHack (1-ое место)
+  - Разработал архитектуру zbus демона.
+  - Реализовал работу с rclone ввиде zbus API (монтирование диска и получение существующих профилей).
+  - Реализовал рекурсивное кэширование выбранной директории.
 ]
 
 #resume-entry(
@@ -75,19 +76,33 @@
 )
 
 #resume-item[
-- Разработал парсер текста из различных форматов документов:
-  - pdf
-  - форматы Mircrosoft office (docx, pptx, xlsx)
-  - текстовые файлы
-- Реализовал парсинг текста с изображений из документов с помощью Tesseract
-- Конвертацию старых Mircrosoft office в новые с помощью Libreoffice
+  - Разработал парсер текста из различных форматов документов:
+    - pdf
+    - форматы Mircrosoft office (docx, pptx, xlsx)
+    - текстовые файлы
+  - Реализовал парсинг текста с изображений из документов с помощью Tesseract
+  - Конвертацию старых Mircrosoft office в новые с помощью Libreoffice
 ]
+
+#resume-entry(
+  title: "Уведомления в Matrix о новых объектах,\nсозданных в workspace в Anytype.",
+  location: [#github-link("aragami3070/anytype-notify")],
+  date: [сентябрь -- декабрь 2025],
+  description: "Бэкенд-разработчик",
+)
+
+#resume-item[
+  - Реализовал взаимодействие с API matrix для отправки сообщений
+  - Написал скрипт для запуска сервиса в system.d
+  - Написал ci/cd на github для тестов
+]
+
 
 #resume-entry(
   title: "Факультетский сервер Jabber",
   location: [#link("im.csit.sgu.ru")],
   date: [январь -- март 2026],
-  description: "DevOps"
+  description: "DevOps",
 )
 
 #resume-item[
