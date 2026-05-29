@@ -26,7 +26,7 @@
 
 #resume-skill-item("Языки", (strong("Rust"), strong("C#"), "SQL", "Bash"))
 #resume-skill-item("Языки общения", (strong("Русский"), "Английский B1"))
-#resume-skill-item("Фреймворки", ("Axum", "ASPNET", "DOTNET", "zbus"))
+#resume-skill-item("Фреймворки", ("Axum", "zbus", "utoipa", "sqlx", "ASPNET", "DOTNET"))
 #resume-skill-item("Инструменты", (strong("Git"), strong("Docker"), "Figma"))
 
 = Образование
@@ -56,16 +56,18 @@
 = Проекты
 #resume-entry(
   title: "Zbus Демон  для работы с облачными хранилищами\n(Яндекс Диск, Google drive и так далее)",
-  location: [#github-link("RebaseBrain/pompiliusd")],
+  location: [#github-link("some-team-org/pompiliusd")],
   date: [апрель 2026],
-  description: "Бэкенд-разработчик",
+  description: "Фуллстек-разработчик",
 )
 
 #resume-item[
   Хакактон DiscoHack (1-ое место)
-  - Разработал архитектуру zbus демона.
-  - Реализовал работу с rclone ввиде zbus API (монтирование диска и получение существующих профилей).
+  - Разработал архитектуру zbus демона на Rust.
+  - Реализовал работу с rclone ввиде zbus API (получение существующих профилей,
+    монтирование и синхронизацию хранилища).
   - Реализовал рекурсивное кэширование выбранной директории.
+  - Реализовал оверлей для плагина на python для синхронизации.
 ]
 
 #resume-entry(
