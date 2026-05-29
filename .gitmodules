@@ -1,3 +1,4 @@
 [submodule "modern-cv"]
 	path = modern-cv
-	url = ./modern-cv
+	url = git@github.com:danilasar/modern-cv.git
+    branch = danilasar/telegram
