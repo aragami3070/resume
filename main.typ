@@ -26,7 +26,7 @@
 
 #resume-skill-item("Языки", (strong("Rust"), strong("C#"), "SQL", "Bash"))
 #resume-skill-item("Языки общения", (strong("Русский"), "Английский B1"))
-#resume-skill-item("Фреймворки", ("Axum", "zbus", "utoipa", "sqlx", "ASPNET", "DOTNET"))
+#resume-skill-item("Фреймворки", ("Axum", "zbus", "ldap3", "gtk-rs + realm4", "utoipa", "sqlx", "ASPNET", "DOTNET"))
 #resume-skill-item("Инструменты", (strong("Git"), strong("Docker"), "Figma"))
 
 = Образование
@@ -71,6 +71,22 @@
 ]
 
 #resume-entry(
+  title: "Регистрация студентов в LDAP СГУ",
+  location: [#github-link("aragami3070/sgu-priemka")],
+  date: [июль -- август 2026],
+  description: "Фуллстел-разработчик",
+)
+
+#resume-item[
+  - Реализовал парсинг данных студентов, транслитерацию их ФИО и генерацию
+    временного пароля на Rust.
+  - Реализовал аутентификацию и создание/удаления учетных записей студентов в
+    ldap СГУ с использованием ldap3, libgssapi, krb5-sys.
+  - Реализовал отправку почтовых писем с логином и паролем от учеток по smtp
+    протоколу
+]
+
+#resume-entry(
   title: "Семантический поиск по документам.",
   location: [#github-link("AXECAC/docs-search")],
   date: [февраль -- март 2026],
@@ -83,7 +99,7 @@
     - форматы Mircrosoft office (docx, pptx, xlsx)
     - текстовые файлы
   - Реализовал парсинг текста с изображений из документов с помощью Tesseract
-  - Конвертацию старых Mircrosoft office в новые с помощью Libreoffice
+  - Реализовал конвертацию старых Mircrosoft office в новые с помощью Libreoffice
 ]
 
 #resume-entry(
@@ -99,18 +115,6 @@
   - Написал ci/cd на github для тестов
 ]
 
-
-#resume-entry(
-  title: "Факультетский сервер Jabber",
-  location: [#link("im.csit.sgu.ru")],
-  date: [январь -- март 2026],
-  description: "DevOps",
-)
-
-#resume-item[
-  - Развертывал сервер ejabberd
-  - Настраивал TLS сертификаты
-]
 
 = Интересы
 Я активный студент, увлечённый программированием, особенно веб-разработкой.
