@@ -26,7 +26,7 @@
 
 #resume-skill-item("Языки", (strong("Rust"), strong("C#"), "SQL", "Bash"))
 #resume-skill-item("Языки общения", (strong("Русский"), "Английский B1"))
-#resume-skill-item("Фреймворки", ("Axum", "zbus", "ldap3", "gtk-rs + realm4", "utoipa", "sqlx", "ASPNET", "DOTNET"))
+#resume-skill-item("Фреймворки", ("Axum", "zbus", "ldap3", "gtk-rs + relm4", "utoipa", "sqlx", "ASPNET", "DOTNET"))
 #resume-skill-item("Инструменты", (strong("Git"), strong("Docker"), "Figma"))
 
 = Образование
@@ -84,6 +84,19 @@
     ldap СГУ с использованием ldap3, libgssapi, krb5-sys.
   - Реализовал отправку почтовых писем с логином и паролем от учеток по smtp
     протоколу
+]
+
+#resume-entry(
+  title: "Генератор шаблонных проектов под STM32",
+  location: [#github-link("AXECAC/stm32-generator")],
+  date: [июль 2026],
+  description: "Фуллстел-разработчик",
+)
+
+#resume-item[
+  - Разработал приложения на Rust.
+  - Реализовал генерацию шаблонного проекта для stm32f401ccu6 с помощью minijinja.
+  - Переписал gui приложения с egui + eframe на gtk-rs + relm4
 ]
 
 #resume-entry(
